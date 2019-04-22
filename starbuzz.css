@@ -5,14 +5,14 @@ body {
   margin:           0px;
 }
 
-#header {
+header {
   background-color: #675c47;
   margin:           10px 10px 0px 10px;
   height:           108px;
   
 
 }
-#headerSlogan{
+header img#headerSlogan{
   float:right;
 }
 
@@ -23,8 +23,21 @@ body {
 #tableRow{
   display: table-row;
 }
+#award{
+  position: absolute;
+  top:30px;
+  left:365px;
+}
+#coupon{
+  position: fixed;
+  top:350px;
+  left:-90px;
+}
+#coupon a, img{
+border: none;
+}
 
-#main {
+main {
   display: table-cell;
   background:       #efe5d0 url(images/background.gif) top left;
   font-size:        105%;
@@ -32,7 +45,7 @@ body {
   vertical-align: top;
 }
 
-#sidebar {
+aside{
   display: table-cell;
   background:       #efe5d0 url(images/background.gif) bottom right;
   font-size:        105%;
@@ -48,7 +61,7 @@ body {
   vertical-align: top;
 }
 
-#footer {
+footer {
   background-color: #675c47;
   color:            #efe5d0;
   text-align:       center;
