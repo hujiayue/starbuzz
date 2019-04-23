@@ -37,6 +37,13 @@ header img#headerSlogan{
 border: none;
 }
 
+#coupon:hover
+{
+  position: fixed;
+  top:350px;
+  transform: translate(250px);
+}
+
 main {
   display: table-cell;
   background:       #efe5d0 url(images/background.gif) top left;
