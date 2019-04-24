@@ -12,6 +12,7 @@ header {
   
 
 }
+
 header img#headerSlogan{
   float:right;
 }
@@ -20,19 +21,44 @@ header img#headerSlogan{
   display: table;
   border-spacing: 10px;
 }
+
 #tableRow{
   display: table-row;
 }
+
 #award{
   position: absolute;
   top:30px;
   left:365px;
+}
+
+ul{
+   background-color: #efe5d0;
+   margin: 10px 10px 0px 10px;
+   list-style-type: none;
+   padding: 5px 0px 5px 0px;
+}
+
+ul li{
+   display: inline;
+   padding: 5px 10px 5px 10px;
+}
+
+ul li a:link, ul li a:visited{
+  color: #954b4b;
+  border-bottom: none;
+  font-weight: bold;
+}
+
+ul li.selected{
+  background-color: #c8b99c;
 }
 #coupon{
   position: fixed;
   top:350px;
   left:-90px;
 }
+
 #coupon a, img{
 border: none;
 }
