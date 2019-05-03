@@ -76,6 +76,7 @@ main {
   font-size:        105%;
   padding:          15px;
   vertical-align: top;
+  font-style: italic;
 }
 
 aside{
@@ -84,6 +85,8 @@ aside{
   font-size:        105%;
   padding:          15px;
   vertical-align: top;
+  color:brown;
+  
 }
 
 #drinks{
@@ -92,6 +95,7 @@ aside{
   width:20%;
   padding: 15px;
   vertical-align: top;
+  font-weight: bold;
 }
 
 footer {
@@ -108,11 +112,17 @@ h1 {
   color:            #954b4b;
 }
 
-.slogan { color: #954b4b; }
+.slogan
+ { 
+   color: #954b4b; 
+
+
+ }
 
 .beanheading {
   text-align:       center;
   line-height:      1.8em;
+ 
 }
 
 a:link {
