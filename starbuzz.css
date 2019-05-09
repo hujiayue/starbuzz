@@ -9,12 +9,13 @@ header {
   background-color: #675c47;
   margin:           10px 10px 0px 10px;
   height:           108px;
-  
+ 
 
 }
 
 header img#headerSlogan{
   float:right;
+ 
 }
 
 #tableContainer{
@@ -77,6 +78,8 @@ main {
   padding:          15px;
   vertical-align: top;
   font-style: italic;
+  font-family:"宋体";
+
 }
 
 aside{
@@ -85,8 +88,7 @@ aside{
   font-size:        105%;
   padding:          15px;
   vertical-align: top;
-  color:brown;
-  
+ 
 }
 
 #drinks{
